@@ -18,5 +18,15 @@
     "sha256": "ae36efd5438eae010dc5d00ef8ef6a8e78f9656d243835567590bf0847840c83",
     "description": "Landnod Polygonizer for QGIS 4; Slovak interface.",
     "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_polygonizer-v1.0.0/landnod_polygonizer-1.0.0.zip"
+  },
+  "landnod_plotline": {
+    "name": "Landnod Plotline",
+    "version": "1.0.0",
+    "file": "landnod_plotline-1.0.0.zip",
+    "repository": "landnod-qgis-cadastre",
+    "source_sha": "cbdbeb17ef9bbdc26c70460c80f42b79a9dec44c",
+    "sha256": "064d2a50dc00fe22281c93588d3c948e0ea039bff1d06a00c0230c500eacb227",
+    "description": "Landnod Plotline for QGIS 4; Slovak interface.",
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_plotline-v1.0.0/landnod_plotline-1.0.0.zip"
   }
 }
