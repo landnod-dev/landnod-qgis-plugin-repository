@@ -1,2 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugins />
+<plugins>
+  <pyqgis_plugin name="Landnod Focus Filter" version="1.0.0">
+    <description>Landnod Focus Filter for QGIS 4; Slovak interface.</description>
+    <about>Landnod Focus Filter for QGIS 4; Slovak interface.</about>
+    <qgis_minimum_version>4.0</qgis_minimum_version>
+    <qgis_maximum_version>4.99</qgis_maximum_version>
+    <file_name>landnod_focus-1.0.0.zip</file_name>
+    <download_url>https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_focus-v1.0.0/landnod_focus-1.0.0.zip</download_url>
+    <author_name>Landnod</author_name>
+    <homepage>https://landnod-dev.github.io/landnod-qgis-plugin-repository/</homepage>
+    <repository>https://github.com/landnod-dev/landnod-qgis-focus</repository>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+</plugins>

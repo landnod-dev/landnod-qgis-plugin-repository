@@ -1,1 +1,12 @@
-{}
+{
+  "landnod_focus": {
+    "name": "Landnod Focus Filter",
+    "version": "1.0.0",
+    "file": "landnod_focus-1.0.0.zip",
+    "repository": "landnod-qgis-focus",
+    "source_sha": "9ef0d4c6aaff7bb8fa8b34688be58aba968c0057",
+    "sha256": "b66146ed27ba31f6938617063c15b1d372b77fd1b83bdbcd5064047577dc61af",
+    "description": "Landnod Focus Filter for QGIS 4; Slovak interface.",
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_focus-v1.0.0/landnod_focus-1.0.0.zip"
+  }
+}
