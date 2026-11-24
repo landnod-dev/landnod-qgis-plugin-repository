@@ -1,13 +1,8 @@
-# Aktuálny rozsah
+# Current distribution status
 
-Stav: `scaffold` — dokumentácia a adresárová kostra.
+Updated 2026-11-24. The user authorized public GitHub Pages hosting, immutable Release ZIPs and initial Landnod releases.
+Preparation and isolated checks are in progress. Visibility, release assets and Pages availability require verification.
 
-Budúci distribučný katalóg vydaných QGIS pluginov a dokumentácia publikovania XML a ZIP balíkov.
-
-Autorizované v tejto fáze: vytvoriť túto kostru a samostatný private repozitár, ak to umožňujú dostupné GitHub prístupy. Žiadny produkčný kód ani dáta sa teraz nepresúvajú.
-
-Generovanie a nasadzovanie katalógu, zabezpečenie jeho prístupov a automatické aktualizácie sa teraz nenastavujú.
-
-Ďalšiu implementačnú úlohu vyberie používateľ podľa aktuálnej potreby. Dlhodobé zámery zostávajú odložené v [ROADMAP.md platformy](https://github.com/landnod-dev/landnod-platform/blob/main/ROADMAP.md); rozhodujúci rozsah ekosystému je v [CURRENT.md platformy](https://github.com/landnod-dev/landnod-platform/blob/main/CURRENT.md).
-
-Kódovanie: lokálne s existujúcim predplatným Codex; bez OpenAI API a bez autonómnych agentov na pozadí. Testovanie v GitHub Actions sa v tejto fáze nezapína.
+Canonical index: https://landnod-dev.github.io/landnod-qgis-plugin-repository/plugins.xml
+Release entries: catalog/plugins.json. Generated index: docs/plugins.xml.
+Manual releases update only the selected plugin; source repositories remain separate and private.

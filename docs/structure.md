@@ -1,9 +1,13 @@
-# Distribučný katalóg
+# Distribution structure
 
-`catalog/` bude obsahovať opis skutočne vydaných pluginov a `templates/` prípadné zdrojové šablóny generátora. Oba adresáre sú zatiaľ prázdne. Nevytvárame živé XML s neexistujúcimi ZIP balíkmi ani predstieranými vydaniami.
+- catalog/plugins.json: one entry per published plugin, source SHA, version and ZIP SHA256.
+- docs/plugins.xml: generated QGIS index served by GitHub Pages from main:/docs.
+- docs/index.html: installation instructions and catalogue link.
+- GitHub Releases: immutable, versioned ZIPs, uploaded and verified before XML publication.
 
-Budúci postup má prevziať overené verzie zo samostatných pluginových repozitárov, najprv publikovať ZIP balíky, potom aktualizovať XML a overiť jeho dostupnosť. Vyžaduje konkrétne zadanie, hosting a konfiguráciu prístupov.
+Runtime source is developed in six independent repositories, each with its own manifest, tests and local commit hook.
+Shared tools live in landnod-automation. Source repositories remain private; released Python code is publicly readable in ZIPs.
 
-Pluginy sú určené používateľom prijímajúcim Landnod systém a databázu. Private GitHub repozitár sám nechráni balíky publikované na verejný web; spôsob autentifikácie katalógu aj ZIP súborov treba navrhnúť pred prvým vydaním.
-
-Cieľ QGIS 4.2.x a platformovú kompatibilitu deklaruj len podľa overených vydaní. Katalóg sám nerieši celú inštaláciu systému ani bezobslužnú aktualizáciu.
+ZIPs contain runtime Python, icons, required static JSON, metadata and translation catalogues.
+Tests, SQL, standalone updater utilities, private inputs, databases, caches and old archives are excluded.
+First releases are checked on Linux with QGIS 4.4 and Qt 6; no other platform is claimed as tested.

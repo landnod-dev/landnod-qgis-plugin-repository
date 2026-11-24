@@ -1,13 +1,23 @@
-# landnod-qgis-plugin-repository
+# Landnod QGIS plugin repository
 
-Distribučný katalóg QGIS pluginov. Budúci distribučný katalóg vydaných QGIS pluginov a dokumentácia publikovania XML a ZIP balíkov.
+Public distribution catalogue for independent Landnod plugins for QGIS 4.
+Plugin sources remain in separate repositories. This repository contains release metadata and immutable ZIP assets.
 
-**Stav: kostra projektu; komponent zatiaľ nie je spustiteľný ani vydaný.** Generovanie a nasadzovanie katalógu, zabezpečenie jeho prístupov a automatické aktualizácie sa teraz nenastavujú.
+In QGIS open **Plugins → Manage and Install Plugins → Settings → Plugin Repositories → Add**:
 
-Začni súbormi [CURRENT.md](CURRENT.md), [AGENTS.md](AGENTS.md) a [prehľadom štruktúry](docs/structure.md). Celkový kontext a odložené zámery spravuje `landnod-platform`. Pri clone celého ekosystému je [susedná platforma](https://github.com/landnod-dev/landnod-platform).
+```text
+Name: Landnod
+URL: https://landnod-dev.github.io/landnod-qgis-plugin-repository/plugins.xml
+```
 
-Repozitár je určený pre private organizáciu `landnod-dev`. Vývoj momentálne prebieha lokálne cez existujúce predplatné Codex. Nie je nakonfigurovaný OpenAI API prístup, agent na pozadí ani aktívny workflow.
+Plugin identities: Landnod Analyze Terrain, Landnod Share Layer Styles, Landnod Focus Filter,
+Landnod Plotline, Landnod Polygonizer and Landnod Pricing and Planning.
+All use the Landnod menu and toolbar. The interface is Slovak and prepared for Qt localization;
+plugin and menu identities are English.
 
-Prístupy ukladaj iba do ignorovaného `.local/`; vzor konfigurácie smie obsahovať len názvy položiek a neplatné ukážkové hodnoty. Ani private repozitár nie je úložiskom živých dát či produkčných záloh.
+Releases contain no passwords, tokens, database dumps, working projects or user settings.
+Configure your own connection through QGIS Authentication Manager and protect its encrypted local database with a master password.
+Some functions require the corresponding Landnod PostgreSQL tables and permissions; installation never provisions database access.
 
-V tomto spoločnom workspace sú vzory názvov konfiguračných položiek v [platform/config/examples](https://github.com/landnod-dev/landnod-platform/tree/main/config/examples); skutočné hodnoty patria do ignorovaného adresára `landnod-platform/.local/secrets/`. Lokálne súbory sa nepoužívajú automaticky, kým príslušný nástroj nedostane explicitne nastavenú konfiguráciu.
+Only uploaded, checksum-verified packages are listed. Releases are manual and versioned per plugin.
+See [structure](docs/structure.md) and [current status](CURRENT.md). Updates are offered through QGIS, not installed unattended.
