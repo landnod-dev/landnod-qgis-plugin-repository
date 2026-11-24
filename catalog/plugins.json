@@ -28,5 +28,15 @@
     "sha256": "064d2a50dc00fe22281c93588d3c948e0ea039bff1d06a00c0230c500eacb227",
     "description": "Landnod Plotline for QGIS 4; Slovak interface.",
     "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_plotline-v1.0.0/landnod_plotline-1.0.0.zip"
+  },
+  "landnod_terrain": {
+    "name": "Landnod Analyze Terrain",
+    "version": "1.0.0",
+    "file": "landnod_terrain-1.0.0.zip",
+    "repository": "landnod-qgis-terrain",
+    "source_sha": "62036836a4a0145e59069e98b8b0c47d332bf376",
+    "sha256": "62b27cfc1a38dfd4b66a6f714c69425f2dc6a9f15b46e4350c9cb81cfcf2417e",
+    "description": "Landnod Analyze Terrain for QGIS 4; Slovak interface.",
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_terrain-v1.0.0/landnod_terrain-1.0.0.zip"
   }
 }
