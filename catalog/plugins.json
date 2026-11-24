@@ -48,5 +48,15 @@
     "sha256": "2a3830f68c50345df96877e604b83a9a241e02a0f6d0f49fa0b659a5d9fff74c",
     "description": "Landnod Share Layer Styles for QGIS 4; Slovak interface.",
     "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_layer_styles-v1.0.0/landnod_layer_styles-1.0.0.zip"
+  },
+  "landnod_pricing_planning": {
+    "name": "Landnod Pricing and Planning",
+    "version": "1.0.0",
+    "file": "landnod_pricing_planning-1.0.0.zip",
+    "repository": "landnod-qgis-pricing-planning",
+    "source_sha": "a778d9838c4747e2a98794a302931e9019db390b",
+    "sha256": "2de41a2c984e74d0f2bdb646f27013ed209581c3bf24a1777d4f406b76b412c9",
+    "description": "Landnod Pricing and Planning for QGIS 4; Slovak interface.",
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_pricing_planning-v1.0.0/landnod_pricing_planning-1.0.0.zip"
   }
 }
