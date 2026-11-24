@@ -13,6 +13,19 @@
     <experimental>False</experimental>
     <deprecated>False</deprecated>
   </pyqgis_plugin>
+  <pyqgis_plugin name="Landnod Share Layer Styles" version="1.0.0">
+    <description>Landnod Share Layer Styles for QGIS 4; Slovak interface.</description>
+    <about>Landnod Share Layer Styles for QGIS 4; Slovak interface.</about>
+    <qgis_minimum_version>4.0</qgis_minimum_version>
+    <qgis_maximum_version>4.99</qgis_maximum_version>
+    <file_name>landnod_layer_styles-1.0.0.zip</file_name>
+    <download_url>https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_layer_styles-v1.0.0/landnod_layer_styles-1.0.0.zip</download_url>
+    <author_name>Landnod</author_name>
+    <homepage>https://landnod-dev.github.io/landnod-qgis-plugin-repository/</homepage>
+    <repository>https://github.com/landnod-dev/landnod-qgis-layer-styles</repository>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
   <pyqgis_plugin name="Landnod Plotline" version="1.0.0">
     <description>Landnod Plotline for QGIS 4; Slovak interface.</description>
     <about>Landnod Plotline for QGIS 4; Slovak interface.</about>

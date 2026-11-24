@@ -38,5 +38,15 @@
     "sha256": "62b27cfc1a38dfd4b66a6f714c69425f2dc6a9f15b46e4350c9cb81cfcf2417e",
     "description": "Landnod Analyze Terrain for QGIS 4; Slovak interface.",
     "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_terrain-v1.0.0/landnod_terrain-1.0.0.zip"
+  },
+  "landnod_layer_styles": {
+    "name": "Landnod Share Layer Styles",
+    "version": "1.0.0",
+    "file": "landnod_layer_styles-1.0.0.zip",
+    "repository": "landnod-qgis-layer-styles",
+    "source_sha": "f856bc3b3275a0d43af4a318e22613eb5c1ddf78",
+    "sha256": "2a3830f68c50345df96877e604b83a9a241e02a0f6d0f49fa0b659a5d9fff74c",
+    "description": "Landnod Share Layer Styles for QGIS 4; Slovak interface.",
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_layer_styles-v1.0.0/landnod_layer_styles-1.0.0.zip"
   }
 }
