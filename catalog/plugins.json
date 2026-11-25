@@ -51,12 +51,12 @@
   },
   "landnod_pricing_planning": {
     "name": "Landnod Pricing and Planning",
-    "version": "1.0.0",
-    "file": "landnod_pricing_planning-1.0.0.zip",
+    "version": "2.0.0",
+    "file": "landnod_pricing_planning-2.0.0.zip",
     "repository": "landnod-qgis-pricing-planning",
-    "source_sha": "a778d9838c4747e2a98794a302931e9019db390b",
-    "sha256": "2de41a2c984e74d0f2bdb646f27013ed209581c3bf24a1777d4f406b76b412c9",
+    "source_sha": "2ea384279f505efd9f8b677c299c1a0876a897b3",
+    "sha256": "451451f0341935222dd99df8cdceb9dbcc7a46d4a86820dddc9f4d6ad46d1fa9",
     "description": "Landnod Pricing and Planning for QGIS 4; Slovak interface.",
-    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_pricing_planning-v1.0.0/landnod_pricing_planning-1.0.0.zip"
+    "download_url": "https://github.com/landnod-dev/landnod-qgis-plugin-repository/releases/download/landnod_pricing_planning-v2.0.0/landnod_pricing_planning-2.0.0.zip"
   }
 }
